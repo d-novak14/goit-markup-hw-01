@@ -15,12 +15,11 @@
 
 .header {
     display: flex;
+    
 }
 
 .div_header {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+
     display: flex;
 }
 
@@ -51,7 +50,8 @@ color: var(--primary-change-color);
     text-decoration: none;
     font-weight: bold;
     margin-top: 24px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
+    margin-right: 93px;
 }
 .studio_bot {
     color: var(--secondary-text-color);
@@ -64,8 +64,8 @@ color: var(--primary-change-color);
 .main_section {
     background-color: var(--main-background-color);
     display: block;
-    padding-top: 80px;
-    padding-bottom: 94px;
+    margin-top: 0px;
+   
 }
 .main {
     color: var(--secondary-text-color);
@@ -75,8 +75,8 @@ color: var(--primary-change-color);
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
-   
-
+    padding: 200px 452px 30px 452px;
+    margin: 0px;
 
 }
 .main_button {
@@ -90,6 +90,10 @@ color: var(--primary-change-color);
     letter-spacing: 0.06em;
     align-items: center;
     text-align: center;
+    margin-left: 745px;
+    border-color: transparent;
+    border-radius: 4px;
+    margin-bottom: 200px;
     
 }
 .main_button:hover {
@@ -115,8 +119,13 @@ color: var(--primary-change-color);
 }
 .contacts {
     list-style-type: none;
-    display: flex;
-    margin-left: 344px;
+ display: flex;
+ margin-left: 344px;
+ margin-right: 215px;
+ padding-top: 21px;
+ padding-bottom: 22px;
+ 
+    
     
     
     
@@ -129,8 +138,8 @@ color: var(--primary-change-color);
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.17;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 21px;
+    padding-bottom: 22px;
     margin-right: 50px;
     display: block;
 
@@ -149,9 +158,8 @@ color: var(--primary-change-color);
     font-weight: 500;
     text-decoration: none;
     color: var(--primary-description-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-right: 50px;
+    margin-left: 50px;
+    
     
 }
 .contact:hover {
@@ -161,6 +169,12 @@ color: var(--primary-change-color);
 .peculiarities-block {
     text-decoration: none;
     list-style-type: none;
+    display: flex;
+    margin-top: 94px;
+}
+
+.list_item_main {
+    margin-right: 30px;
 }
 .list-item-name {
     
@@ -169,6 +183,7 @@ color: var(--primary-change-color);
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
     line-height: 1.14;
+    
 }
 .list-item-description {
     font-size: 14px;
@@ -179,7 +194,9 @@ color: var(--primary-change-color);
 }
 .wwd {
     background-color: var(--secondary-text-color);
-   
+    margin-top: 94px;
+    
+
 }
 .wwd-h2 {
 font-weight: 700;
@@ -192,7 +209,15 @@ color: var(--primary-text-color);
 .wwd-ul {
     text-decoration: none;
     list-style-type: none;
+    display: flex;
+    margin-left: 215px;
 
+}
+.wwd-li1 {
+    margin-right: 30px;
+}
+.wwd-li2 {
+    margin-right: 30px;
 }
 .team {
 font-weight: 700;
@@ -201,13 +226,30 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
+padding-top: 94px;
 }
 .team-color {
     background-color: var(--random-background-color);
+    margin-top: 94px;
 }
 .team-list {
     list-style-type: none;
+display: flex;
+padding-bottom: 101px;
+}
 
+.member1 {
+    margin-left: 215px;
+    margin-right: 30px;
+    border-bottom: var(--main-background-color);
+}
+.member2 {
+    
+    margin-right: 30px;
+}
+.member3 {
+    
+    margin-right: 30px;
 }
 .name {
 font-weight: 500;
@@ -238,11 +280,13 @@ color: var(--primary-description-color);
 }
 .footer {
     background-color: var(--main-background-color);
+    padding-top: 60px;
 }
 .foot-contacts {
     text-decoration: none;
     list-style-type: none;
     font-style: normal;
+    padding: 20px 0px 60px 215px;
 }
 .address {
 font-size: 14px;
@@ -269,6 +313,8 @@ text-decoration: none;
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
+  border-color: transparent;
+  border-radius: 4px;
   
 }
 .portfolio-button:hover,
@@ -278,6 +324,7 @@ text-decoration: none;
 }
 .button_list {
     list-style-type: none;
+    display: flex;
    
 }
 .picture_list {
